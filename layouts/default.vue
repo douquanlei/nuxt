@@ -1,5 +1,15 @@
 <template>
   <div>
+    <nav>
+      <ul>
+        <li class="button--grey">
+          <NuxtLink to="/">Home</NuxtLink>
+        </li>
+        <li class="button--green">
+          <NuxtLink to="/about">About Page</NuxtLink>
+        </li>
+      </ul>
+    </nav>
     <Nuxt />
   </div>
 </template>
